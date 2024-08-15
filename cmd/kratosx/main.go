@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/autocode"
+	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/webutil"
 	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/change"
 	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/project"
 	"github.com/limes-cloud/kratosx/cmd/kratosx/internal/proto"
