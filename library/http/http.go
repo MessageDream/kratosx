@@ -157,3 +157,7 @@ func (r *response) Body() []byte {
 func (r *response) Result(val any) error {
 	return json.Unmarshal(r.response.Body(), val)
 }
+
+func (r *response) Raw() *resty.Response {
+	return r.response
+}
